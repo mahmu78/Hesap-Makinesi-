@@ -1,19 +1,22 @@
-# C++ Graphical Calculator Project
+# C++ Console Calculator and GUI Evolution Project
 
-A modern, desktop-based calculator application developed as a Computer Engineering portfolio piece. This project focuses on a clean architecture separating custom calculation logic from a graphical user interface (GUI).
+A professional, version-controlled calculator project developed for a Computer Engineering portfolio. This project showcases the architectural evolution of custom calculation logic, spanning the transition from a modular console-based system to a fully featured Graphical User Interface (GUI).
 
-## 🚀 Project Roadmap & Versioning
-* **v1.0 (Core Architecture & GUI Base):** Initial release establishing the core calculation logic, custom sequential grouping rules, and the modern desktop graphical user interface. *(Current)*
-* **v1.1 (Advanced Features & Refinement):** Implementation of extended scientific functions, keyboard shortcut mappings, and theme options. *(Planned)*
+## 🚀 Project Roadmap and Versioning
+* **v1.0 (Console Base):** Initial version featuring basic console-based calculation logic, structural modularity, and a menu system. *(Completed)*
+* **v1.1 (Logic Refinement):** Implementation of advanced grouping rules, sequential operation logic handling multiple numbers, and an improved menu flow. *(In Progress)*
+* **v2.0 (Transition to GUI):** Migration of the core logic to a modern desktop graphical user interface. *(Planned)*
 
 ## 🛠️ Features
-* Modular C++ architecture separating the calculation engine from the interface.
-* Custom sequential operations and multi-number grouping logic.
-* Clean, documented, and version-controlled Git history demonstrating professional software development practices.
+* Modular C++ architecture separating calculation logic from user interaction.
+* Custom sequential operations (handling of multi-number groupings).
+* Clean, documented, and version-controlled Git history reflecting professional development practices.
 
-## 💻 Getting Started
-Clone the repository and build the project using your preferred C++ development environment and GUI framework.
+You can contribute to the project's development. If you find any areas needing improvement, feel free to make corrections without disrupting the core framework. ## 💻 Getting Started (Console Version)
+Clone the repository and compile the source code using any standard C++ compiler (such as g++):
 
 ```bash
 git clone [https://github.com/mahmu78/Hesap-Makinesi-.git](https://github.com/mahmu78/Hesap-Makinesi-.git)
-cd Hesap-Makinesi-
+cd Calculator-
+g++ main.cpp -o calculator
+./calculator
